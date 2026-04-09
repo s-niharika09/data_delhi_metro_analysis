@@ -1,0 +1,40 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (if you have any)
+venv/
+env/
+
+# VS Code settings folder
+.vscode/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large datasets (optional, if you don’t want to push raw data)
+# Keep small sample datasets if needed
+data/raw/*.csv
+data/raw/*.xlsx
+data/temp/
+
+# Log files
+*.log
+
+# IDE-specific files
+*.idea/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Optional: ignore outputs from analysis scripts
+outputs/
